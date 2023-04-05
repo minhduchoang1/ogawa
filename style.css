@@ -1,0 +1,225 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins', sans-serif;
+        box-sizing: border-box;
+    }
+.header{
+    width: 100%;
+}
+#navbarSupportedContent ul li a{
+    font-family:  'Source Sans Pro', sans-serif;
+    font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 20px;
+text-align: center;
+letter-spacing: -0.02em;
+padding-left: 20px;
+}
+
+.icon li a{
+    font-family:  'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+}
+
+.uudai {
+
+    text-align: center;
+    
+    
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.uudai h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+
+.team {
+    height: 100%;
+    line-height: 1.5;
+    background-color: #777;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.team-item {
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+    text-align: center;
+    
+}
+
+.team-item .img-box {
+display: inline-block; 
+overflow: hidden;
+position: relative;
+}
+
+.team-item .img-box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    border-radius: 25px;
+
+}
+
+.team-item:hover .img-box::before {
+    transform: translateX(0%);
+}
+
+.team-item .img-box img {
+    
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+}
+
+.container h2{
+    font-family: 'Abel', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 66px;
+letter-spacing: -0.02em; 
+color: #222222;
+}
+
+.container p{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 37px;
+color: #222222;
+}
+
+.container h3{
+    font-family: 'Source Sans Pro';
+    font-size: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.container-2 h2{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: -0.02em;
+text-transform: capitalize
+}
+
+.container-2 h3{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+
+
+
+color: #777777;
+}
+
+.container-2 p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 37px;
+
+color: #222222;
+}
+
+
+.container-3 h2{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: -0.02em;
+text-transform: capitalize
+}
+
+.container-3 h3{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+
+
+
+color: #777777;
+}
+
+.container-3 p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 37px;
+
+color: #222222;
+}
+
+
+.container-4 h2{
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: -0.02em;
+text-transform: capitalize
+}
+
+.container-4 h3{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+
+
+
+color: #777777;
+}
+
+.container-4 p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 37px;
+
+color: #222222;
+}
+
